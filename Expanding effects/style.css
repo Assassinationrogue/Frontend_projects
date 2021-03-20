@@ -23,4 +23,14 @@ body{
 
 .panel{
     background-size:cover; /* to preserve rounded corners on large screens*/
+    background-position: center; /* for getting the center position of the image in the container*/
+    background-repeat: no-repeat;
+    height: 80vh;
+    border-radius: 50px;
+    color: #fff;
+    cursor: pointer;
+    flex: 0.5; /* short hand property for grow, shrink and basis so when it will grow it will grow with .5 value*/
+    margin: 10px; /* was too near the border*/
+    position: relative;
+    transition: flex ;
 }

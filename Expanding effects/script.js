@@ -1,1 +1,1 @@
-const 
+const imgZero = document.querySelector('.container');

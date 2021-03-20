@@ -32,5 +32,18 @@ body{
     flex: 0.5; /* short hand property for grow, shrink and basis so when it will grow it will grow with .5 value*/
     margin: 10px; /* was too near the border*/
     position: relative;
-    transition: flex ;
+    transition: flex 0.7s ease-in;
+}
+
+.panel h3 {
+    font-size: 24px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    margin: 0;
+    opacity: 0; /* when active it will be displayed*/
+}
+
+.panel.active{
+    flex:5;
 }

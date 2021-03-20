@@ -15,7 +15,12 @@ body{
     margin: 0;
 }
 
+/* will get applied to all the images*/
 .container{
     display: flex;
+    width: 90vw; /* to make responsive container according to the browser size*/
+}
 
+.panel{
+    background-size:cover; /* to preserve rounded corners on large screens*/
 }

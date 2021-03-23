@@ -26,29 +26,93 @@ h1{
     
 }
 
-.fa-html5{
-    font-size: 1.8rem;
-    color:#ff5773;
-
-}
-
-.fa-css3-alt{
-    font-size: 1.8rem;
-    color: #264de4;
-}
-
-.fa-js{
-    font-size: 1.6rem;
-    color: yellow;
-}
-
-.fa-react{
-    font-size: 1.8rem;
-    color: #61dbfb;
-}
-
-
-.progress{
+.progress-container{
     display: flex;
     justify-content: space-between;
+    position: relative;
+    margin-bottom: 30px;
+    max-width: 100%;
+    width: 350px;
 }
+
+
+/* just dummy purpose*/
+
+.circle{
+    /* background-color: brown; */
+    margin: 15px;
+    background-color: #fff;
+    color: #999;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    /* to put the numbers in the middle*/
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #e0e0e0;
+    transition: 0.4s ease;
+
+}
+
+.circle.active{
+    border-color: #3498db;
+
+}
+
+.btn{
+    /* background-color: burlywood; */
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 6px;
+    background-color: #3498db;
+    color: wheat;
+
+    font-family: inherit;
+    padding: 8px 30px;
+    margin: 5px;
+    font-size: 14px;
+
+}
+
+.btn:active{
+    transform: scale(.98);
+
+}
+.btn:focus{
+    outline: 0;
+}
+
+.btn:disabled{
+    background: #e0e0e0;
+}
+
+.container{
+    text-align: center;
+}
+
+.progress-container::before{
+    content: '';
+    background-color: #e0e0e0;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    height: 4px;
+    width: 100%;
+    z-index: -1;
+   /* its just not gonna do anything so no transition is requried its just the line behind it.*/
+}
+
+.progress{
+    background-color: cadetblue;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    height: 4px;
+    width: 20%;
+    z-index: -1;
+    transition: 0.4s ease;
+}
+

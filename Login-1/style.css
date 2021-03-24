@@ -32,13 +32,23 @@ body{
     flex-direction: column;
 
 }
-
+::placeholder{
+    color: rgb(99, 97, 97);
+}
 .label-content{
     /* background-color: #fff; */
     margin-right: 62px;
     padding: 10px;
     color:#fff;
     text-shadow: blue 2px 2px 5px;
+}
+
+.input-content{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background:transparent;
+    outline:none;
+    height: 20px;
 }
 
 

@@ -17,8 +17,29 @@ body{
 
 }
 
+.container{
+    background-color: cornflowerblue;
+    position: relative;
+    height: 50vh;
+    width: 50vw;
+    border-radius: 5px;
+}
 .login-form{
     display: flex;
-    
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    flex-direction: column;
+
 }
+
+.label-content{
+    /* background-color: #fff; */
+    margin-right: 62px;
+    padding: 10px;
+    color:#fff;
+    text-shadow: blue 2px 2px 5px;
+}
+
+
 

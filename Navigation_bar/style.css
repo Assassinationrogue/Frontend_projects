@@ -21,8 +21,19 @@ body{
     padding: 50px;
 }
 
-
+.circle_container{
+    position:fixed;
+    top: -100px;
+    left: -100px;
+}
 
 .container.show-nav {
     transform: rotate(-20deg);
+}
+
+.circle{
+    background-color: #ff7979;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
 }

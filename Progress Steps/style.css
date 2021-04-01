@@ -92,7 +92,7 @@ h1{
 }
 
 .progress-container::before{
-    content: '';
+    content: ''; /* content property is used to with ::after or ::before psuedo-element, to insert generated content*/
     background-color: #e0e0e0;
     position: absolute;
     top: 50%;

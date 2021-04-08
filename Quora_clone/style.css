@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap');
+
+:root{
+    --text-color-1:rgb(175, 172, 172);
+    --text-color-2:rgb(161, 15, 15);
+    --text-color-3:#fff;
+    --background-color-1:rgb(56, 105, 240);
+    --background-color-2:rgb(184, 6, 6);
+    --background-color-3:rgb(206, 197, 197);
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:var(--background-color-3) ;
+    font-family: 'Neuton',sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

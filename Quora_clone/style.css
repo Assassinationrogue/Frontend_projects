@@ -23,4 +23,27 @@ body{
     justify-content: center;
     align-items: center;
 }
+#home_icon{
+    color:var(--text-color-2);
+}
+.links{
+    list-style-type: none;
+}
+/* dotted box must be fixed first*/
+.links > li > a:hover{
+    text-decoration: none;
+}
 
+.links > li > a:active{
+    border: none;
+}
+
+.links > li > a:focus{
+    border: none;
+    text-decoration: none;
+}
+
+.links > li > a:visited{
+    border: none;
+    text-decoration: none;
+}

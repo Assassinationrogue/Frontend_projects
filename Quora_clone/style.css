@@ -25,15 +25,24 @@ body{
 }
 #home_icon{
     color:var(--text-color-2);
+    padding:10px 0px;
+    padding-bottom:10px;
+
 }
 .links{
     list-style-type: none;
     display: flex;
     justify-content: center;
     align-content: center;
-    background-color: blueviolet;
+    background-color: white;
+    text-decoration: none;
+    padding: 10px;
+
 }
 /* dotted box must be fixed first*/
+.links > li > a{
+    text-decoration: none;
+}
 .links > li > a:hover{
     text-decoration: none;
 }
@@ -60,15 +69,17 @@ body{
 
 .icon{
     font-size: 25px;
-    color: white;
+    color: grey;
     margin-top: 10px;
     padding-top: 50px;
     padding: 0px 20px;
 }
 
 #search{
-    width: 150%;
-    height: 60%;
+    width: 250px;
+    height: 40%;
+    border: none;
+    font-size: small;
 }
 
 #search:active{
@@ -79,4 +90,25 @@ body{
 #search:focus{
     width: 180%;
     border-color: skyblue;
+    border: none;
+}
+
+.search-bar{
+    display: flex;
+    padding-top: 10px;
+    border: 1px solid rgb(173, 172, 172);
+}
+
+.white-out{
+    color: rgb(199, 196, 196);
+    background-color: white;
+    height: 40%;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.nav{
+    position: sticky;
+    width: 100vw;
+    height: 60px;
 }

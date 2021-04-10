@@ -118,6 +118,7 @@ input:focus{
     position: sticky;
     width: 100vw;
     height: 60px;
+    box-shadow: 0px 2px 5px grey;
 }
 
 .fa-user{
@@ -128,3 +129,21 @@ input:focus{
     background-size: contain;
 }
 
+/* button styling*/
+.question-button{
+    border-radius: 50px 50px ;
+    border:none;
+    background-color: var(--background-color-2);
+    color: white;
+
+}
+
+.question-button:hover{
+    background-color:rgb(139, 9, 9) ;
+    cursor: pointer;
+}
+
+.question-text{
+    padding: 8px 20px;
+    
+}

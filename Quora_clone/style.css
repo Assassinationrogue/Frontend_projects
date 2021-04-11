@@ -88,7 +88,7 @@ body{
     border: none;
     font-size: small;
     font-weight: 100;
-    
+    padding-left: 10px;
 }
 
 #search:active{
@@ -154,4 +154,7 @@ input:focus{
     padding: 8px 20px;
     
 }
+
+
+/* main area*/
 

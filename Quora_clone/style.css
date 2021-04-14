@@ -211,6 +211,9 @@ input:focus{
     text-decoration: none;
 }
 
+/* .box-container, .content-section{
+    display: none;
+} */
 .content-section{
     background-color: #fff;
     width: 42vw;
@@ -220,3 +223,21 @@ input:focus{
     border: var(--border-default);
 }
 
+/*space to follow*/
+
+.main-container{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-evenly;
+    
+}
+
+.space{
+    background-color: white;
+    margin-left: 30px;
+    margin-bottom: 640px;
+    height: 600px;
+    width: 150px;
+    border: var(--border-default);
+}

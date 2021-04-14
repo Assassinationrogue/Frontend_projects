@@ -215,7 +215,8 @@ input:focus{
     background-color: #fff;
     width: 42vw;
     height: 180vh;
-    margin: 10px;
+    /* margin: 10px; */
+    margin-top: 10px;
     border: var(--border-default);
 }
 

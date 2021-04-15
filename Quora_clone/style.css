@@ -238,6 +238,14 @@ input:focus{
     margin-left: 30px;
     margin-bottom: 640px;
     height: 600px;
-    width: 150px;
+    width: 200px;
     border: var(--border-default);
+}
+
+.font_itself{
+    font-size: 18px;
+    font-weight: 300;
+    margin: 10px 10px ;
+    border-bottom: var(--border-default);
+    padding-bottom: 10px;
 }
